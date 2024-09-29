@@ -1,0 +1,86 @@
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .payment-title{
+      font-size: 18px;
+   }
+   .payment-description{
+      font-size: 14px;
+   }
+   .payment-description a{
+      font-size: 14px;
+   }
+}
+
+
+@media (max-width: 767px) {
+   .header{
+      background-image: url("/materials/img/heand_adaptive.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: 25% 50%;
+      
+   }
+
+   .payment-title{
+      margin: 0;
+      text-align: center;
+   }
+   .payment-description{
+      margin-left: 0;
+      text-align: center;
+   }
+   
+   .payment-description a{
+      margin-left: 0;
+   }
+   .hr_line-payment1{
+      margin: 24px 20%;
+   }
+   .hr_line-payment2{
+      width: 60%;
+      margin-top: 24px;
+      margin-bottom: 24px;
+   }
+   .hidden-hr_line{
+      display: block;
+      opacity: 1;
+   }
+   .contacts{
+      padding: 30px 10px;
+   }
+   .copy{
+      left: 45%;
+   }
+
+}
+
+@media (max-width: 480px) {
+   .main_title{
+      margin: 30px 0;
+   }
+
+   .payment-title{
+      font-size: 18px;
+   }
+   .payment-description{
+      font-size: 12px;
+   }
+   .payment-description a{
+      font-size: 11px;
+   }
+
+   .contact-title{
+      font-size: 16px;
+   }
+
+   .contact-description{
+      font-size: 13px;
+   }
+   .contacts{
+      padding: 30px 10px;
+   }
+   .contact{
+      padding: 0;
+   }
+}

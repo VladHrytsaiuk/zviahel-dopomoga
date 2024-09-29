@@ -1,0 +1,122 @@
+@media (max-width: 767px) {
+
+   .main_title h1{
+      font-size: 35px;
+   }
+   .acts{
+      margin-bottom: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+   .act:first-of-type{
+      margin-bottom: 20px;
+   }
+
+   .main-concept{
+      margin: 0 10px;
+   }
+   .main-concept-2{
+      margin-top: 20px;
+   }
+   .structure-title {
+      margin: 50px 10px;
+   }
+
+   .structure-p{
+      margin: 20px 0;
+      padding: 15px 30px;
+      
+   }
+   .agreement-member_title{
+      font-size: 12px;
+   }
+   .agreement-member_description{
+      font-size: 10px;
+   }
+   .agreement_description{
+      margin-top: 40px;
+      padding: 0;
+   }
+   .act-1{
+      transform: rotate(0);
+   }
+   .act-2{
+      transform: rotate(0);
+   }
+   .act-3{
+      transform: rotate(0);
+   }
+   .act-4{
+      transform: rotate(0);
+   }
+   .act-5{
+      height: 50%;
+      transform: rotate(0);
+   }
+   .act-6{
+      transform: rotate(0);
+   }
+}
+
+@media (max-width: 480px) {
+   .main_title{
+      margin: 20px 0 0 0;
+   }
+   .main_title img{
+      width: 5%;
+   }
+   .main_title h1{
+      font-size: 20px;
+   }
+   .acts-title{
+      margin: 40px 20px;
+   }
+   .act:first-of-type{
+      margin-bottom: 20px;
+   }
+   .acts{
+      margin-bottom: 20px;
+   }
+   .act{
+      font-size: 14px;
+   }
+   .main-concept p{
+      font-size: 12px;
+   }
+
+   .main-concept-title{
+      margin: 40px 0 20px 0;
+   }
+   .structure-p{
+      font-size: 12px;
+   }
+   .managment-bodi{
+      background-size: 120%;
+   }
+   .managment-bodi p{
+      font-size: 14px;
+   }
+   .agreement-member_title{
+      font-size: 8px;
+   }
+   .agreement-member_description{
+      font-size: 6px;
+   }
+   .agreement_description{
+      font-size: 12px;
+      padding: 0;
+      margin-bottom: 40px;
+   }
+}
+
+@media (max-width: 260px){
+   .main_title img{
+      width: 7%;
+   }
+   .agreement-member_title{
+      font-size: 6px;
+   }
+   .agreement-member_description{
+      font-size: 4px;
+   }
+}

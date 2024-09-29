@@ -1,0 +1,244 @@
+
+.header-block{
+   padding: 0;
+}
+
+.main_title{
+   display: flex;
+   justify-content: center;
+   margin: 80px 0 90px;
+   
+}
+
+.main_title h1{
+   font-family: 'e-Ukraine Head';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 120%;
+   text-align: center;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   margin-top: 40px;
+   margin-bottom: 50px;
+   margin-left: 10px;
+}
+
+.acts-title{
+   margin: 100px 60px 80px 60px;
+}
+.acts{
+   display: flex;
+   justify-content: center;
+}
+
+.act{
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 140%;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   background-color: #449284;
+   border-radius: 20px 20px 20px 0px;
+   padding: 20px;
+   margin-right: 5px;
+   
+}
+.act:last-of-type{
+   background-color: #449284;
+   border-radius: 20px 20px 0px 20px;
+   margin-right: 0;
+   margin-left: 5px;
+}
+
+ .acts{
+   margin-bottom: 30px;
+}
+
+.act-1{
+   transform: rotate(2.5deg);
+}
+.act-2{
+   transform: rotate(-2.5deg);
+}
+.act-3{
+   transform: rotate(-2.5deg);
+}
+.act-4{
+   transform: rotate(2.5deg);
+}
+.act-5{
+   height: 50%;
+   transform: rotate(2.5deg);
+}
+.act-6{
+   transform: rotate(2.5deg);
+}
+
+.main-concept{
+   margin: 0 80px;
+}
+.main-concept-title{
+   margin: 100px 0 60px 0;
+}
+
+.main-concept p{
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: -0.02em;
+}
+
+.main-concept-3, .main-concept-4{
+   margin-top: 20px;
+}
+
+.structure-title{
+   margin: 100px 200px 60px;
+}
+
+
+.structure-p{
+   background-color: #449284;
+   border-radius: 20px;
+   padding: 24px 60px;
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   margin: 20px 10%;
+}
+
+
+.structure-p1{
+   margin: 20px 15%;
+}
+.managment-title{
+   margin: 100px 0 60px 0;
+}
+
+.managment-bodi{
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 140%;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   text-align: center;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+   margin-bottom: 20px;
+}
+
+.managment-bodi:last-of-type{
+   margin-bottom: 0;
+}
+
+.managment-bodi p{
+   padding: 0;
+   padding: 75px 0;
+   margin: auto;
+}
+
+.managment-bodi-1{
+   background-image: url("/materials/img/compresed/Naglyadova_Rada.jpg");
+   background-position: 25% 35% ;
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.managment-bodi-2{
+   background-image: url("/materials/img/compresed/dyrektor.jpg");
+   background-position: 25% 65%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.managment-bodi-3{
+   background-image: url("/materials/img/compresed/zbory.jpg");
+   background-position: 25% 45%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.agreement{
+   margin: 100px 0 0 0;
+   display: flex;
+   justify-content: space-around;
+}
+
+.agreement-member img{
+   border-radius: 20px;
+   height: 80%;
+   margin: 0;
+}
+
+.agreement-member_title{
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   letter-spacing: -0.02em;
+   color: #000000;
+   margin: 7px 0 3px 0;
+   
+}
+.agreement-member_description{
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 140%;
+   letter-spacing: -0.02em;
+   color: #449284;
+}
+
+.agreement-member{
+   display: flex;
+   justify-content: end;
+   transform: rotate(-2.5deg);
+   z-index: 10;
+   padding-right: 0;
+}
+
+.agreement-member:last-of-type{
+   display: flex;
+   justify-content: start;
+   transform: rotate(2.5deg);
+   padding-right: 15px;
+   padding-left: 0;
+}
+
+.agreement-heands div{
+   padding-top: 50%;
+   z-index: 1;
+}
+
+.agreement-heands{
+   padding: 0;
+}
+
+
+.agreement_description{
+   font-family: 'e-Ukraine';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 140%;
+   text-align: center;
+   letter-spacing: -0.02em;
+   color: #000000;
+   padding: 0 20%;
+
+}
+.agreement_description p{
+   color: #449284;
+   margin-top: 10px;
+}

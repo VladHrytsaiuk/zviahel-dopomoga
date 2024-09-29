@@ -1,0 +1,532 @@
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .footer{
+    padding: 60px 35px 50px 35px;
+  }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+   .about_us-description{
+      font-size: 25px;
+      margin: 0 100px;
+   }
+   
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+   
+  .header-menu.sticky{
+    width: 100%;
+    left: 0;
+   }
+
+
+   .about_us_media{
+      margin-top: 70px;
+      margin-bottom: 40px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .about_us_media-photo2{
+      background-position: 60% 45%;
+      height: 250px;
+      margin-top: 10%;
+    }
+    .about_us_media-photo4{
+      height: 250px;
+      transform: rotate(3.2deg);
+      margin-top: 10%;
+
+    }
+    .about_us-description{
+
+      margin: 0 28px;
+   }
+   .about_us-description{
+      font-size: 20px;
+      margin: 0 100px;
+   }
+   .help_country{
+      transform: rotate(0);
+            padding: 100px 50px;
+   }
+
+   .footer-contact_number{
+    font-size: 16px;
+   }
+   .footer{
+    padding: 60px 30px 50px 30px;
+  }
+   
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+/* ======================= */
+
+.link_menu div{
+  font-size: 9px;
+}
+
+.header-logo{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+/* ======================= */
+
+
+
+
+  /* .header-logo{
+    margin: auto;
+  } */
+  .header-logo a{
+    font-size: 9px;
+  }
+  .header-logo img{
+    width: 30px;
+  }
+  .header-menu.sticky{
+    width: 100%;
+    left: 0;
+   }
+   
+   .legal_aid_button div{
+      font-size: 9px;
+      line-height: 16px;
+      padding: 6px 6px;
+      width: 130px;
+   }
+   .help_button div{
+      font-size: 9px;
+      line-height: 16px;
+      padding: 6px 6px;
+      width: 100px;
+   }
+   .main_title{
+      font-size: 40px;
+   }
+
+
+   .about_us-title{
+      font-size: 35px;
+   }
+
+   .about_us_media{
+      margin-top: 50px;
+      margin-bottom: 40px;
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+   .about_us_media-photo1{
+      background-position: 25% 45%;
+      background-size:cover;
+      width: 350px;
+      height: 250px;
+      border-radius: 20px;
+      transform: rotate(-3.00deg);
+      z-index: 4;
+      margin-top: -5%;
+    }
+    .about_us_media-photo2{
+      background-position: 75% 100%;
+      background-size:cover;
+      width: 130px;
+      height: 300px;
+      border-radius: 20px;
+      
+      margin-top: -5%;
+      z-index: 0;
+      margin-right: 3px;
+    }
+    .about_us_media-photo3{
+      background-position: 25% 60%;
+      background-size:cover;
+      width: 100%;
+      height: 250px;
+      border-radius: 20px;
+      transform: rotate(-3.00deg);
+      z-index: 2;
+    }
+    .about_us_media-photo4{
+      background-position: 25% 100%;
+      background-size:cover;
+      width: 130px;
+      height: 300px;
+      transform: rotate(4.2deg);
+      z-index: 1;
+      margin-top: -5%;
+      margin-left: 3px;
+    }
+
+    .about_us-description{
+      font-size: 20px;
+      margin: 0 28px;
+   }
+   .count_now{
+      transform: rotate(0);
+   }
+
+   .vr_line{
+      width: 80%;
+      margin-top: 50px;
+    }
+    .hr_line{
+      width: 90%;
+    }
+    .row-count_now{
+      margin-top: 0;
+    }
+    .human_help-description, .collected_uah-description, .count_trip-description{
+      font-size: 12px;
+    }
+
+    .team_member-1{
+      margin-bottom: 40px;
+    }
+    .team_member_1-row{
+      margin-bottom: 0;
+    }
+    .help_country{
+      background-image: url("/materials/img/heand_adaptive.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: 25% 50%;
+      transform: rotate(0);
+      padding: 100px 30px;
+   }
+   .help_country-title{
+      font-size: 30px;
+    }
+    .initiatives_row_1{
+      margin-bottom: 30px;
+    }
+
+    .footer{
+      padding: 60px 35px 50px 35px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    .footer_documents div{
+      margin-bottom: 20px;
+    }
+
+    .footer_logo a{
+      width: 40%;
+    }
+    .footer-contact_number{
+      margin-top: 16px;
+      font-size: 22px;
+    }
+    .footer-contact_name{
+      margin-top: 24px;
+    }
+    .footer-contacts_title{
+      margin-bottom: 25px;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+/* =============================== */
+
+.header-logo span{
+  display: none;
+}
+
+.link_menu a{
+  line-height: 120%;
+  font-size: 10px;
+}
+.link_menu{
+  text-align: center;
+}
+
+
+
+/* =============================== */
+
+
+
+  .header-block{
+    border-radius: 0px 0px 20px 20px;
+  }
+
+   .container{
+      padding: 0 10px 0 10px;
+   }
+    .header{
+      border-radius: 0px 0px 10px 10px;
+    }
+    /* .header-logo{
+      margin: auto;
+    } */
+    .header-logo a{
+      font-size: 8px;
+    }
+    .header-logo img{
+      width: 30px;
+    }
+    .about_us{
+      margin-top: 50px;
+    }
+   /* .legal_aid_button div{
+      font-size: 9px;
+      line-height: 10px;
+      padding: 10px 9px;
+      width: 70px;
+   } */
+   .help_button div{
+      font-size: 10px;
+      line-height: 10px;
+      padding: 8px 3px;
+      width: 70px;
+
+   }
+
+
+   /* .legal_aid_button{
+      padding-right: 0;
+   } */
+   .help_button{
+      padding-left: 0;
+   }
+   .main_title{
+      font-size: 25px;
+   }
+
+   .title{
+    font-size: 25px;
+   }
+   .main_photo{
+    height: 150px;
+   }
+   
+   .about_us-description{
+      font-size: 16px;
+      margin: 0 10px;
+   }
+
+   .about_us_media{
+      margin-top: 50px;
+      margin-bottom: 40px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .about_us_media-photo2{
+      background-position: 60% 100%;
+      height: 200px;
+    }
+    .about_us_media-photo4{
+      background-position: 60% 110%;
+      height: 200px;
+    }
+    .about_us_media-photo3{
+      background-position: 60% 65%;
+      height: 200px;
+    }
+    
+    .human_help-title, .collected_uah-title, .count_trip-title{
+      font-size: 35px;
+    }
+
+    .team_member-title{
+      font-size: 16px;
+    }
+    .team_member-description{
+      font-size: 10px;
+    }
+    .team_member-1{
+      margin-bottom: 20px;
+      padding: 5px;
+    }
+    .team_title {
+      margin-bottom: 40px;
+    }
+    .team{
+      padding: 40px 0;
+    }
+    .initiatives_title{
+      margin: 60px 0 40px 0;
+    }
+    .black_bcg p{
+      font-size: 16px;
+      padding: 0 70px 40px 20px;
+    }
+
+   .initiatives_row_1{
+      margin-bottom: 0;
+   }  
+
+    .purchase_for_ZSU{
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    .trip{
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    .VPO{
+      background-size: 180%;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+    .flag{
+      background-size: 200%;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    .help_country-title{
+      font-size: 20px;
+    }
+   .help_county-button a{
+      padding: 13px 23px;
+      font-size: 14px;
+   }
+   .all_initiatives-button a{
+    padding: 13px 23px;
+    font-size: 14px;
+ }
+
+    .footer{
+      padding: 60px 10px 50px 10px;
+    }
+    .footer_documents{
+      margin-bottom: 20px;
+    }
+    .footer_documents-link{
+      font-size: 16px;
+    }
+    .footer_documents-title{
+      margin-bottom: 40px;
+    }
+
+    .footer_logo a{
+      width: 60%;
+    }
+    .footer-contacts{
+      margin-top: 20px;
+    }
+    .footer-contacts_title{
+      font-size: 24px;
+    }
+    .footer-media{
+      margin-top: 20px;
+    }
+    .footer-address{
+      margin-top: 20px;
+    }
+
+    .footer-contact_number{
+      font-size: 15px;
+    }
+    .footer-logo_description{
+      font-size: 10px;
+    }
+
+
+}
+
+@media (max-width: 260px) {
+   .container{
+      padding: 0 10px 0 10px;
+   }
+
+   /* .legal_aid_button div{
+      font-size: 6px;
+      line-height: 8px;
+      padding: 3px 4px;
+      width: 50px;
+   } */
+
+    .header-logo img{
+      min-width: 30%;
+   }
+
+   /* .legal_aid_button{
+      padding-right: 0;
+      justify-content: end;
+   } */
+   .help_button{
+      padding-left: 0;
+      justify-content: start;
+   }
+   .main_title{
+      font-size: 20px;
+   }
+   .traced{
+      margin: 20px 0;
+    }
+    .count_now{
+      padding: 20px;
+    }
+    .count_now-title{
+      font-size: 25px;
+    }
+    .human_help-title, .collected_uah-title, .count_trip-title{
+      font-size: 35px;
+    }
+    .team_member-title{
+      font-size: 13px;
+    }
+    .black_bcg p{
+      font-size: 11px;
+      padding: 0 40px 10px 20px;
+    }
+    .help_country{
+      margin-top: 40px;
+      padding: 50px 10px;
+    }
+    .help_county-button{
+      margin-top: 30px;
+    }
+
+
+    .purchase_for_ZSU{
+      height: 120px;
+      margin-bottom: 10px;
+    }
+
+    .trip{
+      height: 120px;
+      margin-bottom: 10px;
+    }
+    .VPO{
+      height: 120px;
+      background-size: 220%;
+    }
+
+    .flag{
+      height: 120px;
+      background-size: 220%;
+    }
+
+    .help_county-button a{
+      padding: 8px 16px;
+      font-size: 12px;
+   }
+
+   .footer-contact_address{
+    margin-top: 0;
+    font-size: 12px;
+   }
+}
+
+
+
+@media (max-width: 650) {
+
+}
