@@ -1,22 +1,20 @@
-
-
-.main_title{
+.main_title {
    margin: 90px 0;
 }
 
-.header-block{
-   background-image: url("/materials/img/heand.svg");
+.header-block {
+   background-image: url("https://vladhrytsaiuk.github.io/zviahel-dopomoga/materials/img/heand.svg");
    background-repeat: no-repeat;
    background-size: 110%;
    background-position: 25% 100%;
 }
 
-.payments-title{
+.payments-title {
    margin: 80px 0 40px 0;
 }
 
 
-.payment-title{
+.payment-title {
    font-family: 'e-Ukraine';
    font-style: normal;
    font-weight: 500;
@@ -27,7 +25,7 @@
    margin-top: 20px;
 }
 
-.payment-description{
+.payment-description {
    text-decoration: none;
    font-family: 'e-Ukraine';
    font-style: normal;
@@ -39,7 +37,8 @@
    margin-top: 8px;
    margin-left: 32px;
 }
-.payment-description a{
+
+.payment-description a {
    text-decoration: none;
    font-family: 'e-Ukraine';
    font-style: normal;
@@ -52,44 +51,46 @@
 
 }
 
-.payment-description-last{
+.payment-description-last {
    margin-left: 0;
-   
+
 }
-.payment-description_copy{
+
+.payment-description_copy {
    cursor: pointer;
 }
 
-.hidden-hr_line{
+.hidden-hr_line {
    display: none;
 }
 
-.payment-description:last-of-type{
+.payment-description:last-of-type {
    margin-bottom: 20px;
 }
-.payment{
+
+.payment {
    margin-bottom: 30px;
 }
 
 
-.contacts{
+.contacts {
    max-width: 700px;
    background-color: #449284;
    border-radius: 20px;
-   color:#FFFFFF;
+   color: #FFFFFF;
    padding: 30px;
    text-align: center;
    margin: auto;
    margin-top: 40px;
    margin-bottom: 40px;
- }
+}
 
- .row-contacts{
+.row-contacts {
    justify-content: space-around;
    margin: 30px 0;
- }
+}
 
- .contact-title{
+.contact-title {
    font-family: 'e-Ukraine';
    font-style: normal;
    font-weight: 700;
@@ -98,9 +99,9 @@
    text-align: center;
    letter-spacing: -0.02em;
    margin: 0px 0 15px 0;
- }
+}
 
- .contact-description{
+.contact-description {
    font-family: 'e-Ukraine';
    font-style: normal;
    font-weight: 400;
@@ -108,9 +109,10 @@
    line-height: 150%;
    text-align: center;
    letter-spacing: -0.02em;
-   color:#ffffff81;
- }
- .contact-description a{
+   color: #ffffff81;
+}
+
+.contact-description a {
    text-decoration: none;
    font-family: 'e-Ukraine';
    font-style: normal;
@@ -119,22 +121,22 @@
    line-height: 150%;
    text-align: center;
    letter-spacing: -0.02em;
-   color:#ffffff81;
- }
+   color: #ffffff81;
+}
 
 
 
- .hr_line-contact{
+.hr_line-contact {
    margin: 40px 0;
    width: 80%;
- }
+}
 
 
- .copy{
+.copy {
    position: fixed;
    bottom: 10px;
    left: 50%;
-   
+
    color: #FFFFFF;
    background-color: #449284;
    padding: 5px 10px;
@@ -143,10 +145,10 @@
    visibility: hidden;
    opacity: 0;
    transition: .5s;
- }
+}
 
- .copy_active{
+.copy_active {
    visibility: visible;
    opacity: 1;
    transition: .5s;
- }
+}
